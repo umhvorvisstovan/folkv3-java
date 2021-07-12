@@ -23,17 +23,17 @@ Dømini her snúgva seg um Java-útgávuna og krevja at tú hevur [Git](https://
 ## Tak niður
 Koyr hetta frá har ið projekt-faldarin skal stovnast:
 ```bash
-git clone https://github.com/folk-api/folk-v3-api.git
+git clone https://github.com/umhvorvisstovan/folkv3-java.git
 ```
 
 ## Bygg
-[Gradle](https://gradle.org/) verður brúkt at byggja við. Um tørvur er á at byggja Folk Java API fyri seg sjálvt, so koyr hetta frá `folk-v3-java` faldaranum:
+[Gradle](https://gradle.org/) verður brúkt at byggja við. Um tørvur er á at byggja Folk Java API fyri seg sjálvt, so koyr hetta frá `folkv3-java` faldaranum:
 ```bash
 gradlew build
 ```
 
 ## Royndarprojekt
-Eitt royndarprojekt við dømun um brúk av [Folk Java API](https://github.com/folk-api/folk-v3-api) er her: [Folk Java API Sample](https://github.com/folk-api/folk-v3-api-sample). Hetta projekt kann væl brúkast, sum byrjanarstøði undir einum nýggjum projekti.
+Eitt royndarprojekt við dømun um brúk av [Folk Java API](https://github.com/umhvorvisstovan/folkv3-java) er her: [Folk Java API Sample](https://github.com/umhvorvisstovan/sample-folkv3-java). Hetta projekt kann væl brúkast, sum byrjanarstøði undir einum nýggjum projekti.
 
 ## Dømi
 ### Klientar
@@ -82,9 +82,6 @@ var person = client.getPerson(
 
 Almennir stovnar kunnu eisini leita eftir einum persóni við navni og bústaði, sum víst omanfyri.
 
-## Royndarprojekt
-Eitt royndarprojekt við dømun um brúk av [Folk Java API](https://github.com/folk-api/folk-v3-api) er her: [Folk Java API Sample](https://github.com/folk-api/folk-v3-api-sample). Hetta projekt kann væl brúkast, sum byrjanarstøði undir einum nýggjum projekti.
-
 # Community
 Ein skipanarbrúkari í FOLK hevur atgongd til eina ávísa mongd av persónum í skipanini. Hetta uppbýti er skipað í trý sløg soleiðis:
  - **All** - allir persónar í skipanini
@@ -114,7 +111,7 @@ Fyri at stovna ein persón, verður ein leiting gjørd. Um júst ein persónur v
 so verður hann stovnaður. Eitt svar við einum `communityPerson` kemur altíð aftur,
 sum hevur fleiri upplýsingar um úrslitið.
 
-Tað er eitt gott hugskot, at royna [Folk Java API Sample](https://github.com/folk-api/folk-v3-api-sample)
+Tað er eitt gott hugskot, at royna [Folk Java API Sample](https://github.com/umhvorvisstovan/sample-folkv3-java)
 fyri at síggja hvussu hetta hongur saman.
 
 Við navni og bústaði:
