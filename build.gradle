@@ -1,0 +1,20 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+group = 'fo.us.folkv3.api'
+version = '2.1.0'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
+dependencies {
+	implementation 'com.sun.xml.ws:jaxws-ri:2.3.2'
+}
+
+sourceSets.main.java.srcDirs += 'src/main/wsdl'
